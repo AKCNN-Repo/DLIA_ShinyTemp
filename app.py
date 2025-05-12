@@ -208,4 +208,4 @@ def server(input, output, session):
 # Set up the app with the ui, server, and point it in the direction of the www folder
 app = App(app_ui, server, static_assets={"/www": resource_dir})
 # Run the app and launch it in the browser
-app.run(launch_browser=True)
+#app.run(launch_browser=True)
